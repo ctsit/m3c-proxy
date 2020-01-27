@@ -88,7 +88,7 @@ srv.get('/tpf/core', async (req, res) => {
 function addMetadata(triples: tpf.Triple[], req: express.Request) {
   // Add the Hydra triple stating the total number of useful triples.
   triples.push({
-    Subject: `< http://localhost:${port}${req.url}>`,
+    Subject: `<http://localhost:${port}${req.url}>`,
     Predicate: '<http://www.w3.org/ns/hydra/core#totalItems>',
     Object: `"${triples.length}"^^<http://www.w3.org/2001/XMLSchema#integer>"`,
   });

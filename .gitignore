@@ -5,7 +5,7 @@
 # See "git help ignore" or https://git-scm.com/docs/gitignore.
 
 # Ignore compiled files and node modules.
-build/
+/build
 node_modules/
 
 # Anything else is probably a preference. Think twice and then ask three people

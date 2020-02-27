@@ -8,7 +8,7 @@ $ git clone https://github.com/ctsit/m3c-proxy
 $ cd m3c-proxy
 $ git checkout develop
 $ npm install
-$ npm compile
+$ npm run compile
 $ npm start
 ```
 
